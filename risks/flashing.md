@@ -19,7 +19,8 @@ Read more about flashing in the [Xbox Accessibility Guidelines](https://web.arch
 ## Flickering
 A flicker is a flash that is always present and may never reach 100% opacity.
 
-**Some examples:**    
+**Some examples:**
+
 - Light beams or light reflecting off other materials
 - Bokeh    
 (These could also be **"T"**)

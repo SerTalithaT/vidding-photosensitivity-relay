@@ -82,8 +82,16 @@ a:hover:not(nav a:hover){
     display: inline;
 }
 /* header end */
-
 /* CONTENT START */
+
+strong {
+  font-weight: bold;
+}
+
+p:has(> strong:only-child):has(+ ul){ /* bold text by itself on a line only when followed immediately by a list. Usually used for "some examples:"  */
+  margin-bottom: -0.1rem;
+}
+
 
 h1 {
   color: var(--dark);
