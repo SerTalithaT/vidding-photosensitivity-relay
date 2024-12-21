@@ -20,6 +20,10 @@ body {
   color: var(--text);
 }
 
+html, body, strong{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 #header nav ul li a{
   background:linear-gradient(var(--links), var(--dark));
   background-color:var(--dark);
@@ -99,4 +103,17 @@ h2, h3, h4, h5 {
 :is(h1, h2, h3, h4) strong, #content ul li strong{ 
   color: var(--links);
   font-weight: bold;
+}
+
+.notice{
+  border: 2px solid var(--links);
+  text-align: center;
+  display: table;
+  padding: 10px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--links);
 }
