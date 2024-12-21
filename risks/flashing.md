@@ -6,7 +6,7 @@ Read more about flashing in the [Xbox Accessibility Guidelines](https://web.arch
 - Rapid dips to any color (most commonly white or black flashes)
 - Quick changes in brightness, curves, hue, saturation, or levels
 
-Some examples
+**Some examples:**
 - Lightning, including in the clouds, or related magical effects
 - Some types of "light leaks" overlays and transitions.    
 (These could also be **"T"**)
@@ -19,7 +19,7 @@ Some examples
 ## Flickering
 A flicker is a flash that is always present and may never reach 100% opacity.
 
-Some examples
+**Some examples:**
 - Light beams or light reflecting off other materials
 - Bokeh    
 (These could also be **"T"**)
