@@ -7,5 +7,4 @@ If you'd like to read more about what can cause seizures to further help rate yo
 
 This page is designed as a community-based collaboration. You can submit issues and pull requests to [the GitHub repository here]({{ site.github.repository_url }}).
 
-| :---: |
-| TL;DR: It's like a CW, but for photosensitivities |
+<div class="notice">TL;DR: It's like a CW, but for photosensitivities</div>
