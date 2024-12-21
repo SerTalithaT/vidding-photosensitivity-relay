@@ -2,7 +2,7 @@
 
 ## Strobing
 One of the most dangerous photosensitive risks as they are often the cause of seizures.
-**Strobes do __not__ have to be single frames flashing by**; they can also be a persistent switching at a slower, but continuous interval. 
+**Strobes do <u>not</u> have to be single frames flashing by**; they can also be a persistent switching at a slower, but continuous interval. 
 
 ## Light Strobes
 The first type of strobe that usually comes to mind when you think of the word. It refers to switching between different high contrast colors, objects, or scenes at a persistent interval.

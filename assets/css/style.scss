@@ -2,8 +2,11 @@
 ---
 /* do not edit above this line */
 
-:root { /* variables */
-  --links: white;
+:root { /* variables TODO: change the colorscheme */
+  --links: #CA9451;
+  --h1b: #f0d0a9;
+  --text: #9d9d9d;
+  --dark: #825635;
 }
 
 @import "{{ site.theme }}";
@@ -13,34 +16,57 @@ html {
     background: black;
 }
 
-a {
-  color: #659e10;
+body {
+  color: var(--text);
 }
 
-#header, #header nav, nav { /* override theme */
+#header nav ul li a {
+  color:white;
+  border:1px solid var(--h1b);
+  background:linear-gradient(var(--dark), var(--links));
+  border-radius:2px;
+  background-color:var(--links);
+}
+
+#header nav ul li a:hover {
+  background:linear-gradient(var(--links), var(--dark));
+  background-color:var(--dark);
+  border:1px solid var(--links);
+}
+
+a:not(nav a) {
+  color: var(--links);
+  text-decoration: 1px dotted underline;
+}
+
+#header, #header nav, nav {
     background: black;
     max-width: 99%;
 }
 
-#header nav ul li.title, #header nav ul li.repo, #header nav ul li.repo a{ /* override theme */
+#header nav ul li.title, #header nav ul li.repo, #header nav ul li.repo a{ 
     background: transparent;
     float: none;
   }
 
-  #repodetails { /* idk what to do with this atm but it's too big to show on every page */
+  #repodetails { /* TODO: idk what to do with this atm but it's too big to show on every page */
     display: none;
+  }
+
+  ul { /* default style uses double arrow */
+    list-style-image: none;
   }
 
 /* start actual custom stuff */
 
 /* TODO: @media for smaller screens for the nav (under ~480px) */
 
-/* start header */
+/* HEADER START */
 #header nav .brand, #header nav .brand ul {
     display: inline;
 }
 
-#header nav .brand .title {
+#header nav .brand .title a{
     font-size: inherit;
     font-weight: bold;
     margin-right: 20px;
@@ -50,4 +76,17 @@ a {
     position: relative;
     left: 10%;
     display: inline;
+}
+/* header end */
+
+/* CONTENT START */
+
+h1 {
+  color: var(--links);
+  font-weight: bold;
+}
+
+:is(h1, h2, h3, h4) strong, #content ul li strong{ 
+  color: var(--h1b);
+  font-weight: bold;
 }
