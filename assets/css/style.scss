@@ -12,16 +12,12 @@
 @import "{{ site.theme }}";
 
 /* base theme overrides */
-html {
-    background: black;
-}
-
 body {
   color: var(--text);
 }
 
 html, body, strong{
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
 #header nav ul li a{
