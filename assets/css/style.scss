@@ -20,6 +20,8 @@ html { /* just a test */
 
 /* start actual custom stuff */
 
+/* TODO: @media for smaller screens for the nav (under ~480px) */
+
 /* start header */
 #header nav .brand, #header nav .brand ul {
     display: inline;
@@ -28,5 +30,11 @@ html { /* just a test */
 #header nav .brand .title {
     font-size: inherit;
     font-weight: bold;
+    margin-right: 20px;
   }
 
+#header nav ul.site-nav {
+    position: relative;
+    left: 10%;
+    display: inline;
+}
