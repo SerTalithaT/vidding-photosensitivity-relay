@@ -4,21 +4,26 @@
 @import "{{ site.theme }}";
 /* do not edit above this line */
 
-html {
+html { /* just a test */
     background: black;
 }
 
-#header, nav {
+#header, #header nav, nav { /* override theme */
     background: transparent;
+    max-width: 99%;
 }
 
-#header nav ul li.title, #header nav ul li.fork a{
-    float: left;
+#header nav ul li.title, #header nav ul li.fork a{ /* override theme */
     background: transparent;
-    
   }
 
-  #header nav ul li.title {
+/* start actual custom stuff */
+
+#header nav ul.brand {
+    float: left;
+}
+
+#header nav ul li.title {
     font-size: inherit;
     font-weight: bold;
   }

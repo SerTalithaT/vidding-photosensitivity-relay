@@ -20,14 +20,15 @@
   <body>
       <div id="header">
         <nav>
-          <ul><li class="title">{{ site.title | default: site.github.repository_name }}</li>
-            <li class="fork"><a href="{{ site.github.repository_url }}"><img src="img/github-mark.png" style="height:15px;"></img> Repo</a></li>
+          <ul class="brand"><li class="title">{{ site.title | default: site.github.repository_name }}</li>
+            <li class="fork"><a href="{{ site.github.repository_url }}"><img src="img/github-mark.png" style="height:12px;"></img> Repo</a></li>
             {% if site.show_downloads %}
               <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
               <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
               <li class="title">DOWNLOADS</li>
             {% endif %}
-            <li><a href="https://bentovid.com">Some link</a></li>
+          </ul>
+            <ul class="site-nav"><li><a href="https://bentovid.com">Some link</a></li>
           </ul>
         </nav>
       </div><!-- end header -->
