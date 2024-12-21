@@ -9,7 +9,7 @@ The first type of strobe that usually comes to mind when you think of the word. 
 
 - Multi-flashing or successive flashing used for [flash photography](https://en.wikipedia.org/wiki/Flash_(photography))
 - [Emergency vehicle lighting](https://en.wikipedia.org/wiki/Emergency_vehicle_lighting)     
-(This may also be "**C**")
+(This may also be **"C"**)
 - Strobe lights
 - Very strong, moving, and/or pulsating lens flares
 
@@ -25,4 +25,4 @@ Another frequent trigger, these occur most often in nature and/or live-action vi
 - [Optical moiré speedup](https://en.wikipedia.org/wiki/Line_moir%C3%A9#Speedup_of_movements_with_moir%C3%A9) or lenticular effects
 - [Jerkiness](https://en.wikipedia.org/wiki/Jerkiness), stuttering, choppy video, or footage that appears to be at a low fps rate.
 - [Film strips](https://www.youtube.com/watch?v=xYF4dK5HATo)    
-(This would also be "**P**" and potentially "**T**", but "**S**" would take precedence)
+(This would also be **"P"** and potentially **"T"**, but **"S"** would take precedence)
