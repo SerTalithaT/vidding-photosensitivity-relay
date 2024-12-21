@@ -4,10 +4,14 @@
 @import "{{ site.theme }}";
 /* do not edit above this line */
 
-html{
+html {
     background: black;
 }
 
-#header nav ul li.fork {
+#header nav {
+    background: transparent;
+}
+
+#header nav ul li.fork, #header nav ul li.title {
 float: none;
   }
