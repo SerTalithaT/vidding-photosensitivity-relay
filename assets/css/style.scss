@@ -8,10 +8,17 @@ html {
     background: black;
 }
 
-#header nav {
+#header, nav {
     background: transparent;
 }
 
-#header nav ul li.fork, #header nav ul li.title {
-float: none;
+#header nav ul li.title, #header nav ul li.fork a{
+    float: left;
+    background: transparent;
+    
+  }
+
+  #header nav ul li.title {
+    font-size: inherit;
+    font-weight: bold;
   }
