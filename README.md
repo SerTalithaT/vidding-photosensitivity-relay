@@ -1,5 +1,5 @@
 # Vidding Photosensitivity Relay
-![Enby, a pink octopus with sunglasses, by artist James Eden](/img/enby_octopus_by_jameseden.png | width=500)
+<img title="Enby, a pink octopus with sunglasses, by artist James Eden" src="/img/enby_octopus_by_jameseden.png" height="500px"></img>
 
  Vidding is the name for the hobby of editing fan-videos. Photosensitive individuals are often overlooked when creating and sharing content, making it hard for them to find videos that are safe to view. The VPR system seeks to change this by offering information on how to relay content advisories for common photosensitive risks.
 
@@ -8,4 +8,3 @@ If you'd like to read more about what can cause seizures to further help rate yo
 This page is designed as a community-based collaboration. You can submit issues and pull requests to [the GitHub repository here]({{ site.github.repository_url }}).
 
 | TL;DR: It's like a CW, but for photosensitivities |
-| |
