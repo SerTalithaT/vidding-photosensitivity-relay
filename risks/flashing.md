@@ -6,7 +6,7 @@ Read more about flashing in the [Xbox Accessibility Guidelines](https://web.arch
 - Rapid dips to any color (most commonly white or black flashes)
 - Quick changes in brightness, curves, hue, saturation, or levels
 
-**Some examples:**    
+**Some examples:**
 - Lightning, including in the clouds, or related magical effects
 - Some types of "light leaks" overlays and transitions.    
 (These could also be **"T"**)
