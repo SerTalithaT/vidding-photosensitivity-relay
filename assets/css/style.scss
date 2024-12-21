@@ -2,7 +2,7 @@
 ---
 /* do not edit above this line */
 
-:root { /* variables TODO: change the colorscheme? */
+:root { /* variables */
   --links: #CA9451;
   --light: #f0d0a9;
   --text: #9d9d9d;
@@ -88,7 +88,7 @@ strong {
   font-weight: bold;
 }
 
-p:has(> strong:only-child):has(+ ul){ /* bold text by itself on a line only when followed immediately by a list. Usually used for "some examples:"  */
+p:has(> strong:only-child):has(+ ul){ /* bold text by itself on a line only when followed immediately by a list. Usually used for "some examples"  */
   margin-bottom: -0.1rem;
 }
 
