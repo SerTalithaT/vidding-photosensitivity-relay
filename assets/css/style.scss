@@ -1,15 +1,24 @@
 ---
 ---
-
-@import "{{ site.theme }}";
 /* do not edit above this line */
 
-html { /* just a test */
+:root { /* variables */
+  --links: white;
+}
+
+@import "{{ site.theme }}";
+
+/* base theme overrides */
+html {
     background: black;
 }
 
+a {
+  color: #659e10;
+}
+
 #header, #header nav, nav { /* override theme */
-    background: transparent;
+    background: black;
     max-width: 99%;
 }
 

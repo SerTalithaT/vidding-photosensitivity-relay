@@ -1,5 +1,5 @@
 # Vidding Photosensitivity Relay
-![Enby, a pink octopus with sunglasses, by artist James Eden](/img/enby_octopus_by_jameseden.png)
+![Enby, a pink octopus with sunglasses, by artist James Eden](/img/enby_octopus_by_jameseden.png | height=500)
 
  Vidding is the name for the hobby of editing fan-videos. Photosensitive individuals are often overlooked when creating and sharing content, making it hard for them to find videos that are safe to view. The VPR system seeks to change this by offering information on how to relay content advisories for common photosensitive risks.
 
