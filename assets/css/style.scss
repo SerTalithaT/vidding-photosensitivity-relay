@@ -13,12 +13,16 @@ html { /* just a test */
     max-width: 99%;
 }
 
+#header nav ul li.title, #header nav ul li.fork, #header nav ul li.fork a{ /* override theme */
+    background: transparent;
+    float: none;
+  }
+
 /* start actual custom stuff */
 
 /* start header */
-#header nav .brand {
-    float: left;
-    display: block;
+#header nav .brand, .repo {
+    display: inline;
 }
 
 #header nav .brand .title {
