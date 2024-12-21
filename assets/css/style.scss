@@ -18,6 +18,10 @@ html { /* just a test */
     float: none;
   }
 
+  #repodetails { /* idk what to do with this atm but it's too big to show on every page */
+    display: none;
+  }
+
 /* start actual custom stuff */
 
 /* TODO: @media for smaller screens for the nav (under ~480px) */
