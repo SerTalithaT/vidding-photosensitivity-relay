@@ -20,7 +20,7 @@
   <body>
       <div id="header">
         <nav>
-          <div class="brand"><span class="title">{{ site.title | default: site.github.repository_name }}</span>
+          <div class="brand"><span class="title"><a title="home" href="{{site.github.baseurl}}">{{ site.title | default: site.github.repository_name }}</a></span>
             <ul><li class="repo"><a href="{{ site.github.repository_url }}"><img src="{{site.github.baseurl}}/img/github-mark.png" title="Github" style="height:12px;"></img> Repo</a></li>
             {% if site.show_downloads %}
               <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
