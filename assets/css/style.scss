@@ -1,0 +1,123 @@
+---
+---
+/* do not edit above this line */
+
+:root { /* variables */
+  --links: #CA9451;
+  --light: #f0d0a9;
+  --text: #9d9d9d;
+  --dark: #825635;
+}
+
+@import "{{ site.theme }}";
+
+/* base theme overrides */
+body {
+  color: var(--text);
+}
+
+html, body, strong{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+#header nav ul li a{
+  background:linear-gradient(var(--links), var(--dark));
+  background-color:var(--dark);
+  border:1px solid var(--dark);
+  font-weight: bold;
+}
+
+#header nav ul li a:hover {
+  background: none;
+  background-color:var(--dark);
+  border:1px solid var(--dark);
+}
+
+a:not(nav a) {
+  color: var(--links);
+  text-decoration: 1px dotted underline;
+}
+
+a:hover:not(nav a:hover){
+  color: var(--light);
+}
+
+#header, #header nav, nav {
+    background: black;
+    max-width: 99%;
+}
+
+#header nav ul li.title, #header nav ul li.repo, #header nav ul li.repo a{ 
+    background: transparent;
+    float: none;
+  }
+
+  #repodetails { /* TODO: idk what to do with this atm but it's too big to show on every page */
+    display: none;
+  }
+
+  ul { /* default style uses double arrow */
+    list-style-image: none;
+  }
+
+/* start actual custom stuff */
+
+/* TODO: @media for smaller screens for the nav (under ~480px) */
+
+/* HEADER START */
+#header nav .brand, #header nav .brand ul {
+    display: inline;
+}
+
+#header nav .brand .title a{
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 20px;
+    color: var(--links);
+  }
+
+#header nav ul.site-nav {
+    position: relative;
+    left: 10%;
+    display: inline;
+}
+/* header end */
+/* CONTENT START */
+
+strong {
+  font-weight: bold;
+}
+
+p:has(> strong:only-child):has(+ ul){ /* bold text by itself on a line only when followed immediately by a list. Usually used for "some examples"  */
+  margin-bottom: -0.1rem;
+}
+
+
+h1 {
+  color: var(--dark);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h2, h3, h4, h5 {
+  color: var(--links);
+  font-weight: bold;
+}
+
+:is(h1, h2, h3, h4) strong, #content ul li strong{ 
+  color: var(--links);
+  font-weight: bold;
+}
+
+.notice{
+  border: 2px solid var(--links);
+  text-align: center;
+  display: table;
+  padding: 10px;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--links);
+}
